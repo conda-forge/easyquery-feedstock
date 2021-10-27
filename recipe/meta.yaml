@@ -1,5 +1,5 @@
 {% set name = "easyquery" %}
-{% set version = "0.1.6" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/easyquery-{{ version }}.tar.gz
-  sha256: 912f5b0c011fac1873c592006f77d7a2e3bfe774af7bd740a90678ae3436527e
+  sha256: 4113390d291a41bb2c599d444313afeddd83e3aec45032ea5ccb38d96eb9f3f1
 
 build:
   number: 0
